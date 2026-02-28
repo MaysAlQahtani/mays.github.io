@@ -1,0 +1,148 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #080b45, #aba7a8);
+    color: #222;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    padding: 50px 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color: #080b45;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* University Section */
+.university {
+    margin: 20px 0;
+}
+
+.university img {
+    width: 120px;
+}
+
+/* Card */
+.card {
+    background: #222;
+    color: white;
+    width: 340px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #5C0001;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #3b0104;
+}
+
+/* Labs Section */
+.labs {
+    margin-top: 40px;
+}
+
+.labs a {
+    display: block;
+    margin: 8px;
+    color: #080b45;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.labs a:hover {
+    text-decoration: underline;
+}
+
+/* Form Section */
+.form-section {
+    background: white;
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Focus */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #080b45;
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #080b45;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #05072c;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+}
