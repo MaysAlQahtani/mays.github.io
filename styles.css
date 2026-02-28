@@ -1,0 +1,55 @@
+/* ===== Lab 4 Box ===== */
+.lab4-box {
+    background: #222;
+    color: white;
+    width: 360px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.lab4-box h2 {
+    text-align: center;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.lab4-box form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.lab4-box form input,
+.lab4-box form textarea,
+.lab4-box form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+.lab4-box form input:focus,
+.lab4-box form textarea:focus,
+.lab4-box form select:focus {
+    outline: 2px solid #5C0001;
+}
+
+.lab4-box form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #5C0001;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.lab4-box form button:hover {
+    background: #3b0104;
+}
