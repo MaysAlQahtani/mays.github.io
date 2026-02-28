@@ -1,11 +1,11 @@
-/* Reset */
+/* ===== Reset ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
+/* ===== Body ===== */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #080b45, #aba7a8);
@@ -13,12 +13,11 @@ body {
     text-align: center;
 }
 
-/* Container */
 .container {
     padding: 50px 20px;
 }
 
-/* Headings */
+/* ===== Headings ===== */
 h1 {
     font-size: 42px;
     margin-bottom: 5px;
@@ -29,7 +28,7 @@ p {
     font-size: 18px;
 }
 
-/* University Section */
+/* ===== University ===== */
 .university {
     margin: 20px 0;
 }
@@ -38,8 +37,8 @@ p {
     width: 120px;
 }
 
-/* Card */
-.card {
+/* ===== Cards ===== */
+.card, .order-form {
     background: #222;
     color: white;
     width: 340px;
@@ -47,9 +46,16 @@ p {
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: left;
 }
 
-/* Buttons */
+.card h2, .order-form h2 {
+    color: #f0f0f0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ===== Buttons ===== */
 .btn {
     display: inline-block;
     margin-top: 15px;
@@ -65,7 +71,7 @@ p {
     background: #3b0104;
 }
 
-/* Labs Section */
+/* ===== Labs ===== */
 .labs {
     margin-top: 40px;
 }
@@ -82,65 +88,46 @@ p {
     text-decoration: underline;
 }
 
-/* Form Section */
-.form-section {
-    background: white;
-    width: 400px;
-    margin: 40px auto;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    text-align: left;
-}
-
-.form-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* Labels */
-label {
+/* ===== Form Section ===== */
+.order-form form label {
     display: block;
     margin-top: 12px;
     font-weight: bold;
 }
 
-/* Inputs */
-input,
-select,
-textarea {
+.order-form form input,
+.order-form form textarea,
+.order-form form select {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: none;
 }
 
-/* Focus */
-input:focus,
-select:focus,
-textarea:focus {
-    border-color: #080b45;
-    outline: none;
+.order-form form input:focus,
+.order-form form textarea:focus,
+.order-form form select:focus {
+    outline: 2px solid #5C0001;
 }
 
-/* Submit Button */
-button {
+.order-form form button {
     width: 100%;
     margin-top: 20px;
     padding: 10px;
-    background: #080b45;
+    background: #5C0001;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-button:hover {
-    background: #05072c;
+.order-form form button:hover {
+    background: #3b0104;
 }
 
-/* Footer */
+/* ===== Footer ===== */
 footer {
     margin-top: 50px;
     padding: 20px;
