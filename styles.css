@@ -1,103 +1,29 @@
-/* ===== Reset ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* ===== Body ===== */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #080b45, #aba7a8);
-    color: #222;
-    text-align: center;
-}
-
-.container {
-    padding: 50px 20px;
-}
-
-/* ===== Headings ===== */
-h1 {
-    font-size: 42px;
-    margin-bottom: 5px;
-    color: #080b45;
-}
-
-p {
-    font-size: 18px;
-}
-
-/* ===== University ===== */
-.university {
-    margin: 20px 0;
-}
-
-.university img {
-    width: 120px;
-}
-
-/* ===== Cards ===== */
-.card, .order-form {
+.lab4-box {
     background: #222;
     color: white;
-    width: 340px;
-    margin: 30px auto;
-    padding: 25px;
+    width: 360px;
+    margin: 50px auto;
+    padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     text-align: left;
 }
 
-.card h2, .order-form h2 {
-    color: #f0f0f0;
-    margin-bottom: 15px;
+.lab4-box h2 {
     text-align: center;
+    color: #f0f0f0;
+    margin-bottom: 20px;
 }
 
-/* ===== Buttons ===== */
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #5C0001;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-.btn:hover {
-    background: #3b0104;
-}
-
-/* ===== Labs ===== */
-.labs {
-    margin-top: 40px;
-}
-
-.labs a {
-    display: block;
-    margin: 8px;
-    color: #080b45;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.labs a:hover {
-    text-decoration: underline;
-}
-
-/* ===== Form Section ===== */
-.order-form form label {
+.lab4-box form label {
     display: block;
     margin-top: 12px;
     font-weight: bold;
 }
 
-.order-form form input,
-.order-form form textarea,
-.order-form form select {
+.lab4-box form input,
+.lab4-box form textarea,
+.lab4-box form select {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
@@ -105,13 +31,13 @@ p {
     border: none;
 }
 
-.order-form form input:focus,
-.order-form form textarea:focus,
-.order-form form select:focus {
+.lab4-box form input:focus,
+.lab4-box form textarea:focus,
+.lab4-box form select:focus {
     outline: 2px solid #5C0001;
 }
 
-.order-form form button {
+.lab4-box form button {
     width: 100%;
     margin-top: 20px;
     padding: 10px;
@@ -123,14 +49,7 @@ p {
     font-weight: bold;
 }
 
-.order-form form button:hover {
+.lab4-box form button:hover {
     background: #3b0104;
-}
-
-/* ===== Footer ===== */
-footer {
-    margin-top: 50px;
-    padding: 20px;
-    background: rgba(0,0,0,0.1);
 }
 
