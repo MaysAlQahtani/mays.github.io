@@ -1,86 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mays's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #080b45, #aba7a8);
-            color: #222;
-            text-align: center;
-        }
-
-        .container {
-            padding: 50px 20px;
-        }
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 5px;
-            color: #080b45;
-        }
-
-        p {
-            font-size: 18px;
-        }
-
-        .university {
-            margin: 20px 0;
-        }
-
-        .university img {
-            width: 120px;
-        }
-
-        .card {
-            background: #222;
-            color: white;
-            width: 340px;
-            margin: 30px auto;
-            padding: 25px;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background: #5C0001;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-        }
-
-        .btn:hover {
-            background: #3b0104;
-        }
-
-        .labs {
-            margin-top: 40px;
-        }
-
-        .labs a {
-            display: block;
-            margin: 8px;
-            color: #080b45;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        .labs a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: rgba(0,0,0,0.1);
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Mays Portfolio - Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -90,30 +13,54 @@
     <h1>Hi, I'm Mays 👋</h1>
     <p>Information Technology Student</p>
 
-    <div class="university">
-        <a href="https://www.kau.edu.sa/ar" target="_blank">
-            <img src="kau-logo.png" alt="KAU website">
-        </a>
-        <p>King Abdulaziz University</p>
-    </div>
-
     <div class="card">
         <h2>MIDANAK Application</h2>
         <p>AI-based Football Player Recommendation System.</p>
         <a href="#" class="btn">View Project</a>
     </div>
 
-    <div class="labs">
-        <h2>Lab Submissions</h2>
-        <a href="https://MaysAlQahtani.github.io/Cpit405_Lab1/">LAB 1</a>
-        <a href="https://MaysAlQahtani.github.io/Cpit405_Lab2/">LAB 2</a>
-        <a href="https://MaysAlQahtani.github.io/Cpit405_Lab3/">LAB 3</a>
-    </div>
+    <!-- Lab 4 Form -->
+    <div class="form-section">
 
-    <br>
-    <a href="mailto:maysalqahtani@gmail.com" class="btn">Contact Me</a>
+        <h2>Auto Parts Order Form</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="part">Part Name:</label>
+            <input type="text" id="part" name="part" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="engine">Engine</option>
+                <option value="brakes">Brakes</option>
+                <option value="electrical">Electrical</option>
+                <option value="body">Body Parts</option>
+            </select>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="3"></textarea>
+
+            <button type="submit">Submit Order</button>
+
+        </form>
+
+    </div>
 
 </div>
 
-<f
+<footer>
+    © 2026 Mays - CPIT405
+</footer>
+
+</body>
+</html>
 
