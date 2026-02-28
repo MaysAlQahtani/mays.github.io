@@ -2,14 +2,92 @@
 <html>
 <head>
     <title>Mays's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #080b45, #aba7a8);
+            color: #222;
+            text-align: center;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 5px;
+            color: #080b45;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .university {
+            margin: 20px 0;
+        }
+
+        .university img {
+            width: 120px;
+        }
+
+        .card {
+            background: #222;
+            color: white;
+            width: 340px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #5C0001;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #3b0104;
+        }
+
+        .labs {
+            margin-top: 40px;
+        }
+
+        .labs a {
+            display: block;
+            margin: 8px;
+            color: #080b45;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .labs a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 
 <body>
 
 <div class="container">
 
-    <h1>Hi, I'm Mays 👋</h1>
+    <h1>Hi, I'm Mays :wave:</h1>
     <p>Information Technology Student</p>
 
     <div class="university">
@@ -32,13 +110,17 @@
         <a href="https://MaysAlQahtani.github.io/Cpit405_Lab3/">LAB 3</a>
     </div>
 
-</div>
+    <br>
+    <a href="mailto:maysalqahtani@gmail.com" class="btn">Contact Me</a>
+    
+<div class="container">
+<div class="card" style="background:#f2f2f2; color:#000; width:600px;">
 
-<!-- ===== Lab 4 Box منفصل ===== -->
-<div class="lab4-box">
-    <h2>Lab 4 - Great Auto Parts Order Form</h2>
+    <h2 style="font-family: 'Times New Roman', serif; font-size:32px; margin-bottom:20px;">
+        Great Auto Parts - Order Form
+    </h2>
 
-    <form>
+    <form style="text-align:left;">
 
         <label>First Name:</label>
         <input type="text" placeholder="Enter your first name" required>
@@ -71,16 +153,22 @@
         <input type="number" placeholder="Enter the quantity of the spare part you need">
 
         <label>Comment:</label>
-        <textarea rows="5" placeholder="Enter your comment"></textarea>
+        <textarea placeholder="Enter your comment" rows="5"></textarea>
 
-        <button type="submit">Submit</button>
+        <button type="submit" style="
+            width:100%;
+            padding:12px;
+            margin-top:15px;
+            background:black;
+            color:white;
+            border:none;
+            border-radius:6px;
+            font-weight:bold;
+            cursor:pointer;">
+            Submit
+        </button>
 
     </form>
 </div>
 
-<footer>
-    © 2026 Mays - CPIT405
-</footer>
-
-</body>
-</html>
+<f  
