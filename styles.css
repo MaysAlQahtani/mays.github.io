@@ -1,64 +1,47 @@
-body {
-  font-family: Georgia, serif;
-  background-color: #ffffff;
-  padding: 60px 120px;
-}
+<div class="order-form">
 
-h1 {
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
+    <h2>Great Auto Parts - Order Form</h2>
 
-p {
-  font-size: 18px;
-  margin-bottom: 50px;
-}
+    <form>
 
-.container {
-  max-width: 750px;
-}
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter your first name" required>
 
-.container h2 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 40px;
-}
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter your last name" required>
 
-label {
-  display: block;
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 8px;
-}
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email address" required>
 
-input,
-textarea {
-  width: 100%;
-  padding: 14px;
-  font-size: 16px;
-  border: 1px solid #dcdcdc;
-  border-radius: 6px;
-  box-sizing: border-box;
-}
+        <label>Phone number:</label>
+        <input type="tel" placeholder="Enter your phone number">
 
-textarea {
-  height: 180px;
-}
+        <label>Make:</label>
+        <input type="text" placeholder="Make">
 
-button {
-  width: 100%;
-  margin-top: 25px;
-  padding: 14px;
-  font-size: 18px;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
+        <label>Model:</label>
+        <input type="text" placeholder="Model">
 
+        <label>Year:</label>
+        <input type="number" placeholder="Year">
+
+        <label>Date:</label>
+        <input type="date">
+
+        <label>Spare Part:</label>
+        <input type="text" placeholder="Enter the spare part you need">
+
+        <label>Quantity:</label>
+        <input type="number" placeholder="Enter the quantity of the spare part you need">
+
+        <label>Comment:</label>
+        <textarea rows="5" placeholder="Enter your comment"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
 button:hover {
   background-color: #222;
 }
