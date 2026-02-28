@@ -1,45 +1,127 @@
-<div class="order-form">
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    <h2>Great Auto Parts - Order Form</h2>
+/* ===== Body ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #080b45, #aba7a8);
+    text-align: center;
+    color: #222;
+}
 
-    <form>
+/* ===== Main Container ===== */
+.container {
+    padding: 50px 20px;
+}
 
-        <label>First Name:</label>
-        <input type="text" placeholder="Enter your first name" required>
+/* ===== Headings ===== */
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color: #080b45;
+}
 
-        <label>Last Name:</label>
-        <input type="text" placeholder="Enter your last name" required>
+p {
+    font-size: 18px;
+}
 
-        <label>Email:</label>
-        <input type="email" placeholder="Enter your email address" required>
+/* ===== Card ===== */
+.card {
+    background: #222;
+    color: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
 
-        <label>Phone number:</label>
-        <input type="tel" placeholder="Enter your phone number">
+/* ===== Buttons ===== */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #5C0001;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
 
-        <label>Make:</label>
-        <input type="text" placeholder="Make">
+.btn:hover {
+    background: #3b0104;
+}
 
-        <label>Model:</label>
-        <input type="text" placeholder="Model">
+/* ===== Form Section ===== */
+.form-section {
+    background: white;
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: left;
+}
 
-        <label>Year:</label>
-        <input type="number" placeholder="Year">
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-        <label>Date:</label>
-        <input type="date">
+/* ===== Labels ===== */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
 
-        <label>Spare Part:</label>
-        <input type="text" placeholder="Enter the spare part you need">
+/* ===== Inputs ===== */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
 
-        <label>Quantity:</label>
-        <input type="number" placeholder="Enter the quantity of the spare part you need">
+/* Focus Effect */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #080b45;
+    outline: none;
+}
 
-        <label>Comment:</label>
-        <textarea rows="5" placeholder="Enter your comment"></textarea>
+/* Submit Button */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: #080b45;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
 
-        <button type="submit">Submit</button>
+button:hover {
+    background: #05072c;
+}
 
-    </form>
+/* ===== Footer ===== */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+}
 
 </div>
 button:hover {
